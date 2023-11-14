@@ -8,6 +8,7 @@ class Person:
 
     def getName(self):
         return f'{self.__name} {self.__lastName}'
+
     
     def setName(self):
         self.__name = input("Enter your name: ")
