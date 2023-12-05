@@ -6,6 +6,7 @@ class Person:
         self.__cards = []
         self.dateOfBirth =  dateOfBirth
 
+    
     def getName(self):
         return f'{self.__name} {self.__lastName}'
     
